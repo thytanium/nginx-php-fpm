@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.9
 
 RUN apk update && apk add php7 php7-fpm php7-xml php7-xmlreader php7-xmlwriter \
     php7-session php7-mbstring php7-mcrypt php7-pdo php7-pdo_mysql php7-curl \
